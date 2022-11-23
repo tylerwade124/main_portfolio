@@ -4,6 +4,10 @@ export default function Nav () {
     return (
         <div className="nav">
 
+            <Link to="/">
+                <h2>About Me</h2>
+            </Link>
+
             <Link to="/projects">
                 <h2>Projects</h2>
             </Link>
@@ -14,11 +18,7 @@ export default function Nav () {
 
             <Link to="/contact">
                 <h2>Contact</h2>
-            </Link>    
-
-            <Link to="/">
-                <h2>Home</h2>
-            </Link>
+            </Link>  
             
         </div>
     )

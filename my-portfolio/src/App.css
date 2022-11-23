@@ -1,4 +1,240 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+}
+.typewriter-animation {
+    color: black;
+    min-width: 900px;
+    max-width: 1300px;
+    min-height: 400px;
+    border-bottom: solid;
+    border-width: 3px;
+    border-color: #71292a;
+    position: absolute;
+    left: 80%;
+    top: 15%;
+    transform: translate(-80%, -15%)
 }
 
+.home {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+body {
+    background: url("/images/leone-venter-VieM9BdZKFo-unsplash.jpg") fixed no-repeat;
+    background-size: cover;
+    font-family: 'Courier Prime', monospace;
+    min-height: 100vh;
+  }
+
+
+.header-nav {
+    background-image: linear-gradient(#592021a6, #f0f0f000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  .description {
+    background-color: #f0f0f0;
+    position: relative;
+    font-family: 'Courier Prime', monospace;
+    font-size: clamp(1rem, 3vw + 1rem, 4rem);
+    width: max-content;
+    color: black;
+    left: 10%;
+  }
+  
+  .description::before,
+  .description::after {
+    background-color: #f0f0f0;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .description::before {
+    background-color: #f0f0f0;
+    animation: 
+    typewriter 3s steps(8) forwards;
+  }
+  
+  .description::after {
+    width: .125em;
+    background: black;
+    animation: 
+    typewriter 3s steps(8) forwards;
+  }
+  
+  @keyframes typewriter {
+    to { 
+      left: 100% 
+    }
+  }
+  .description2 {
+    background-color: #f0f0f0;
+    position: relative;
+    font-family: 'Courier Prime', monospace;
+    font-size: clamp(1rem, 3vw + 1rem, 4rem);
+    width: max-content;
+    color: black;
+    left: 10%;
+  }
+  
+  .description2::before,
+  .description2::after {
+    background-color: #f0f0f0;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .description2::before {
+    background-color: #f0f0f0;
+    animation: 
+    typewriter 4.5s steps(13) forwards;
+    animation-delay: 3.1s
+  }
+  
+  .description2::after {
+    width: .125em;
+    background: black;
+    animation: 
+    typewriter 4.5s steps(13) forwards;
+    animation-delay: 3.1s
+  }
+  
+  @keyframes typewriter {
+    to { 
+      left: 100% 
+    }
+  }
+  .description3 {
+    background-color: #f0f0f0;
+    position: relative;
+    font-family: 'Courier Prime', monospace;
+    font-size: clamp(1rem, 3vw + 1rem, 4rem);
+    width: max-content;
+    color: black;
+    left: 10%;
+  }
+  
+  .description3::before,
+  .description3::after {
+    background-color: #f0f0f0;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .description3::before {
+    background-color: #f0f0f0;
+    animation: 
+    typewriter 5.2s steps(17) forwards;
+    animation-delay: 7.6s
+  }
+  
+  .description3::after {
+    width: .125em;
+    background: black;
+    animation: 
+    typewriter 5.2s steps(17) forwards;
+    animation-delay: 7.6s
+  }
+  
+  @keyframes typewriter {
+    to { 
+      left: 100% 
+    }
+  }
