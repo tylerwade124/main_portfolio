@@ -2,34 +2,105 @@
   margin: 0;
   padding: 0;
 }
-
 .home {
-  position: absolute; 
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #text {
   stroke-dasharray: 1668;
   animation: 3s fillSvg linear;
+  animation-delay: 1.8s;
+}
+#text::before {
+  stroke-dashoffset:1668;
+}
+.signature {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.white-box {
+  position: absolute;
+  background-color: white;
+  height: 15vw;
+  width: 40vw;
+  animation: cssAnimation 0s ease-in 1.8s forwards;
+}
+.sub-text{
+  font-size: clamp(1rem, 3vw + 1rem, 4rem);
+  animation: 3s slide-left;
+  animation-delay: 5s
+}
+.sub-text::before {
+  visibility: hidden;
+}
+.intro {
+  background-color: white;
+  position: relative;
+  font-family: 'Courier Prime', monospace;
+  font-size: clamp(1rem, 3vw + 1rem, 4rem);
+  width: max-content;
+  color: black;
+}
+.intro::before,
+.intro::after {
+  background-color: white;
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.intro::before {
+  background-color: white;
+  animation: 
+  typewriter 1.75s steps(17) forwards;
+}
+.intro::after {
+  width: .125em;
+  background: black;
+  animation: 
+  typewriter 1.75s steps(17) forwards;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+@keyframes typewriter {
+  to { 
+    left: 100% 
+  }
+}
+@keyframes cssAnimation {
+  to {
+      width:0;
+      height:0;
+      overflow:hidden;
+  }
+}
 @keyframes fillSvg{
   0%{
     stroke-dashoffset:1668;
   }
   100%{
     stroke-dashoffset:0;
+
+  }
+}
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+    width: 300%; 
   }
 }
