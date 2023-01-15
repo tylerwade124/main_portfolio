@@ -1,8 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/sunil.jpg";
+import myImg from "../../Assets/tyler.png";
 import SocialMedia from "../SocialMedia";
 import TypeWriter from "./TypeWriter";
+import Button from "react-bootstrap/Button";
 
 function Home() {
   return (
@@ -45,10 +46,19 @@ function Home() {
         <Container>
           <Row>
             <Col md={12} className="home-about-social">
-              <h1>CONTACT</h1>
+            <Button className='download-button'>
+              &nbsp;Resume
+            </Button>
+              <h1 className="contact-text">CONTACT</h1>
               <SocialMedia />
             </Col>
+
           </Row>
+        </Container>
+        <Container>
+        <div className="scrolldown">
+          <p className="scrolldown-text">Scroll <br /> Down!</p>
+        </div>
         </Container>
       </Container>
     </section>
