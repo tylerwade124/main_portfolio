@@ -55,11 +55,11 @@ function Home() {
 
           </Row>
         </Container>
-        <Container>
+        {/* <Container>
         <div className="scrolldown">
           <p className="scrolldown-text">Scroll <br /> Down!</p>
         </div>
-        </Container>
+        </Container> */}
       </Container>
     </section>
   );
