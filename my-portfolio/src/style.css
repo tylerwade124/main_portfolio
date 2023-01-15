@@ -269,6 +269,9 @@ html {
   text-align: left;
 }
 
+.heading {
+  margin-top: 50px;
+}
 .heading-description {
   margin-left: 20px !important;
 }
@@ -793,8 +796,8 @@ html {
 .profile-pic {
   border-radius: 50%;
   height: 70%;
-  width: 65%;
-  margin-top: 12%;
+  width: 70%;
+  margin-top: 10%;
   margin-left: 60%;
   transform: translateX(200%);
 	opacity: 0;
@@ -835,7 +838,7 @@ html {
 
 	padding: 0;
 	margin: 0;
-	margin-left: 50%;
+	margin-left: 75%;
 	transform: translateX(-200%);
 	opacity: 0;
 	animation: slide-in-anim 1.5s ease-out forwards;
