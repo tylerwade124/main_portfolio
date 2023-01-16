@@ -1,31 +1,38 @@
-import COAST from "./Assets/Projects/coast.jpg";
-import COSMOS from "./Assets/Projects/cosmos.jpg";
-import TRAVELWELL from "./Assets/Projects/travelwell.png";
+import TYPETHIS from "./Assets/Projects/type-this.png";
+
 
 
 export const PROJECTS = [
   {
-    image: COSMOS,
-    name: "AllChat",
-    technologyUsed: "ReactJs, Javascript, Redux, knockout.js, Jest",
-    description: "Azure Cosmos DB is Microsoft's proprietary globally distributed, multi-model database service 'for managing data at planet-scale' Azure Cosmos DB is a fully managed NoSQL database for modern app development. Single-digit millisecond response times, and automatic and instant scalability, guarantee speed at any scale.",
-    deployUrl: "https://cosmos.azure.com/",
-    gitHubUrl: "",
-  },
-  {
-    image: TRAVELWELL,
+    image: TYPETHIS,
     name: "TypeThis",
-    technologyUsed: "Shopify, React, typescript, polaris, GraphQL",
-    description: "Custom Luggage Tags and Passport Holders engraved with everywhere you've traveled and everywhere you will travel in the future.",
-    deployUrl: "https://travlwell.com/",
-    gitHubUrl: "",
+    technologyUsed: "React, JavaScript",
+    description: "First project",
+    deployUrl: "https://type-this.netlify.app/",
+    gitHubUrl: "https://github.com/tylerwade124/type-this",
   },
   {
-    image: COAST,
+    image: TYPETHIS,
     name: "Digital Classroom",
-    technologyUsed: "ReactNative, Javascript, Redux",
-    description: "Team collaboration mobile app and online services like slack Message people and groups without sharing phone numbers, communicate with managers and staff all in one place. and discuss or assign tasks to get stuff done",
-    deployUrl: "https://play.google.com/store/apps/details?id=com.fomo.android.app",
+    technologyUsed: "React, JavaScript",
+    description: "Dev Team project",
+    deployUrl: "",
+    gitHubUrl: "https://github.com/natehacker/Teacher-Hub-",
+  },
+  {
+    image: TYPETHIS,
+    name: "AllChat",
+    technologyUsed: "Python, Django",
+    description: "Real time chat app",
+    deployUrl: "",
+    gitHubUrl: "https://github.com/tylerwade124/allchat",
+  },
+  {
+    image: TYPETHIS,
+    name: "2023 Porfolio",
+    technologyUsed: "React, JavaScript",
+    description: "Portfolio for the 2023 year",
+    deployUrl: "",
     gitHubUrl: "",
   },
 ];

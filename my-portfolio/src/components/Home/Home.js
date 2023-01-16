@@ -25,8 +25,8 @@ function Home() {
               </h1>
 
               <p className="heading-description blockquote">
-                I am passionate about using Javascript and Animation Libraries
-                to create awesome user experiences. With over five years of
+                I am passionate about using Javascript and React Libraries
+                to create awesome user experiences. With years of
                 experience developing web applications using the latest
                 front-end and back-end technologies.
               </p>
@@ -46,7 +46,7 @@ function Home() {
         <Container>
           <Row>
             <Col md={12} className="home-about-social">
-            <Button className='download-button'>
+            <Button className='download-button' href="/resume">
               &nbsp;Resume
             </Button>
               <h1 className="contact-text">CONTACT</h1>

@@ -18,7 +18,7 @@ function ProjectCards(props) {
           {props.isBlog ? "View Blog" : "View GitHub"}
         </Button>
         <br />
-        <Button variant="primary" href={props.depoyLink} target="_blank"className="download-button">
+        <Button variant="secondary" href={props.deployLink} target="_blank"className="download-button">
           <BiLinkExternal /> &nbsp;
           {props.isBlog ? "View Blog" : "View Project"}
         </Button>
