@@ -25,7 +25,7 @@ function Home() {
               </h1>
 
               <p className="heading-description blockquote">
-                I am passionate about using Javascript and React Libraries
+                I am passionate about using Javascript with React Libraries
                 to create awesome user experiences. With years of
                 experience developing web applications using the latest
                 front-end and back-end technologies.
