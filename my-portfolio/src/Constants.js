@@ -33,7 +33,7 @@ export const PROJECTS = [
   {
     image: PORTFOLIO,
     name: "2023 Porfolio",
-    technologyUsed: "React, JavaScript",
+    technologyUsed: "React, JavaScript, Bootstrap",
     description: "Portfolio for the 2023 year",
     deployUrl: "",
     gitHubUrl: "https://github.com/tylerwade124/main_portfolio",
